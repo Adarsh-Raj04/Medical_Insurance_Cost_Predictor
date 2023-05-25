@@ -3,5 +3,6 @@ joblib
 sklearn
 numpy
 pandas
-matplotlib
+matplotlib.pyplt
 seaborn
+tkinter
