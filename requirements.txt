@@ -3,4 +3,5 @@ joblib
 sklearn
 numpy
 pandas
-
+matplotlib
+seaborn
