@@ -3,7 +3,7 @@ joblib
 sklearn
 numpy
 pandas
-import matplotlib.pyplot as plt
-import seaborn as sns
+matplotlib
+seaborn
 
 tkinter
