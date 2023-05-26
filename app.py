@@ -7,6 +7,11 @@ Created on Sun Apr 16 16:00:58 2023
 
 import streamlit as st
 import joblib
+import numpy as np
+import string
+import pickle 
+st.set_option('deprecation.showfileuploaderEncoding',False)
+model = pickle.load(open("new_model.pk1','rd'))
 def main():
     html_temp = """
     <div style ="background-color:lightblue;padding:16px">
