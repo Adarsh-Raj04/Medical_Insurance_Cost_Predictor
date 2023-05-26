@@ -10,7 +10,7 @@ import joblib
 import numpy as np
 import string
 import pickle 
-st.set_option('deprecation.showfileuploaderEncoding',False)
+st.set_option('deprecation.showfileUploaderEncoding',False)
 model = pickle.load(open('new_model.pk1','rd'))
 def main():
     html_temp = """
