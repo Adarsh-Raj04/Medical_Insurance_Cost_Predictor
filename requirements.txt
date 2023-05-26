@@ -5,6 +5,6 @@ numpy
 pandas
 matplotlib
 seaborn
---upgrade scikit-learn joblib
+--upgrade scikit-learn
 
 
