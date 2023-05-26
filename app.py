@@ -11,7 +11,7 @@ import numpy as np
 import string
 import pickle 
 st.set_option('deprecation.showfileUploaderEncoding',False)
-model = pickle.load(open('new_model.pk1','rb'))
+model = pickle.load(open('model_joblib_gr','rb'))
 def main():
     html_temp = """
     <div style ="background-color:lightblue;padding:16px">
