@@ -24,7 +24,7 @@ st.markdown(
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #000;
+            color: black;
             text-align: center;
         }
         .footer {
