@@ -10,7 +10,7 @@ import numpy as np
 import string
 import pickle 
 st.set_option('deprecation.showfileUploaderEncoding',False)
-with open('model_pickle_gr.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 def main():
     html_temp = """
@@ -21,7 +21,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    with open('model_pickle_gr.pkl', 'rb') as file:
+    with open('model.pkl', 'rb') as file:
         model = pickle.load(file)
     p1=st.slider("Enter your age",18,100)
     
