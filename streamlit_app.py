@@ -19,7 +19,7 @@ st.markdown(
     """
     <style>
         .main {
-            background-color: #f0f8ff; /* Light Blue */
+            background-color: #105757; /* Light Blue */
             padding: 16px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@ st.markdown(
         .footer {
             text-align: center;
             margin-top: 20px;
-            font-size: 12px;
+            font-size: 15px;
             color: #777;
         }
     </style>
