@@ -43,7 +43,7 @@ st.markdown(
 def main():
     html_temp = """
     <div style ="background-color:lightblue;padding:16px">
-    <h2 style ='color:black';text-align:center>Health insurance cost predictor</h2>
+    <h2 style ='color:black';text-align:center>Adarsh Medical Insurance Cost Predictor App</h2>
     </div>
     
     """
