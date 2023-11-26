@@ -21,7 +21,8 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    model = joblib.load('model_joblib_gr')
+    with open('model_pickle_gr.pkl', 'rb') as file:
+        model = pickle.load(file)
     p1=st.slider("Enter your age",18,100)
     
     s1 = st.selectbox('sex',('male','female'))
