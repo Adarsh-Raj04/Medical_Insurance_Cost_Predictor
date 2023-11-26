@@ -12,6 +12,34 @@ import pickle
 st.set_option('deprecation.showfileUploaderEncoding',False)
 with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
+
+
+# CSS styling
+st.markdown(
+    """
+    <style>
+        .main {
+            background-color: #f0f8ff; /* Light Blue */
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #000;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 def main():
     html_temp = """
     <div style ="background-color:lightblue;padding:16px">
