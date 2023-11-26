@@ -48,7 +48,10 @@ def main():
         pred= model.predict([[p1,p2,p3,p4,p5,p6]])
         st.success('Your insurance cost is {}'.format(round(pred[0],2)))
     
-    
+    st.markdown(
+        "<div class='footer'>Made with ❤️ by Adarsh</div>",
+        unsafe_allow_html=True
+    )
    
 if __name__=='__main__':
     main()
